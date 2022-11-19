@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Dojo_Survey_2</title>
+</head>
+<body>
+    <!-- link html with python with form and use post -->
+    <!-- action is to conect route -->
+    <form action="/" method="post" class="container">
+        <h1> Dojo Survey</h1>
+        <div>
+            <!-- name links the value with input of user -->
+            <label for="name">Name</label>
+            <input type="text" name="nm">
+        </div>
+        <div>
+            <label for="location">Dojo Location</label>
+            <select name="lc" >
+                <option value=""> Select </option>
+                <option value="CA">California</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NY">New York</option>
+                <option value="ME">Maine</option>
+            </select>
+        </div>
+        <label for="languages">Languages</label>
+        <select name="lg" id="">
+            <option value=""> Select </option>
+            <option value="C#">C#</option>
+            <option value="C++">C++</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+        </select>
+        <div>
+            <label for="comments">Comments:</label>
+            <textarea name="cm" id="" cols="10" rows="2"></textarea>
+        </div>
+        <input type="Submit" class="btn btn-success">
+    </form>
+    </div>
+</body>
+</html>
